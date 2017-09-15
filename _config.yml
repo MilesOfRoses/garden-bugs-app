@@ -1,0 +1,4 @@
+baseurl: /garden-bugs-app
+exclude: ['README.md']
+name: Garden Bugs Friend or Foe?
+description: An app to help gardeners indentify insects
