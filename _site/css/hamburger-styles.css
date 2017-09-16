@@ -104,14 +104,8 @@ body {
 
 /* Additional non-critical styles */
 
-h1, h3, p {
-  max-width: 500px;
-}
 
-code {
-	padding: 2px;
-	background: #ddd;
-}
+
 
 /* Micro reset */
 *,*:before,*:after{box-sizing:border-box;margin:0;padding:0;}

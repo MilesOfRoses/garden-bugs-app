@@ -2,8 +2,13 @@
 
 .content-wrapper{
 	background: #dddddd;
-	width: 400px
+	max-width: 400px
 }
+
+body {
+	margin-left: -50px; /* this moves the main content of the unte under the hamburger */
+}
+
 
 
 /************ ALL BUTTON STYLES UNDER HERE ***************/
