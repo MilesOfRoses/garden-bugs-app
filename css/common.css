@@ -1,0 +1,55 @@
+/************ BASIC LAYOUT ***************/
+
+.content-wrapper{
+	background: #dddddd;
+	width: 400px
+}
+
+
+/************ ALL BUTTON STYLES UNDER HERE ***************/
+.button {
+  /* non-critical appearance styles */
+  width: 250px;
+  list-style: none
+}
+
+.button a {
+  /* non-critical appearance styles */
+  border-radius: 8px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: block;
+  padding: 1em;
+  background: #b2b2b2;
+  color: black;
+  text-align: center;
+  font-size: 1.2em;
+  text-decoration: none;
+  box-shadow: 2px 2px 3px #606060
+}
+
+.button-green a{
+	background: #2dad41;
+}
+
+.button-red a{
+	background: #d12929;
+}
+
+/* all button hover styles under here */
+
+.button-green a:hover {
+  color: white;
+	background: -webkit-linear-gradient(top, rgb(45, 173, 65), rgb(26, 86, 35));
+}
+
+.button-red a:hover {
+  color: white;
+	background: -webkit-linear-gradient(top, rgb(209, 41, 41), rgb(127, 25, 25));
+}
+
+.button-gray a:hover {
+  color: white;
+	background: -webkit-linear-gradient(top, rgb(178, 178, 178), rgb(114, 114, 114));
+}
+
