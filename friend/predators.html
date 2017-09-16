@@ -2,18 +2,17 @@
 layout: default
 ---
 
-<div class="content-wrapper">
 	<header>
 		<h1>Predators</h1>
 		<h2>It sounds like you've got a predator insect! Is it one of these?</h2>
 	</header>
+<div class="content-wrapper">
+	<ul>
+		{% for post in site.categories.predators %}
+		<li>
+			<a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a>
+			<p>{{post.meta}}</p>
+		</li>
+		{% endfor %}
+	</ul>
 </div> <!--content-wrapper-->
-
-<ul>
-	{% for post in site.categories.predators %}
-	<li>
-		<a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a>
-		<p>{{post.meta}}</p>
-	</li>
-	{% endfor %}
-</ul>
