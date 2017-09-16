@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<div class="content-wrapper">
+	<h1>Pollinators</h1>
+	<h2>It sounds like you've got a polinator! Is it one of these?</h2>
+</div> <!--content-wrapper-->
+
+<ul>
+	{% for post in site.categories.pollinators %}
+	<li>
+		<a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a>
+		<p>{{post.meta}}</p>
+	</li>
+	{% endfor %}
+</ul>

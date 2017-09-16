@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<div class="content-wrapper">
+	<h1>Flying Pests</h1>
+	<h2>It sounds like you've got a flying pest insect! Is it one of these?</h2>
+</div> <!--content-wrapper-->
+
+<ul>
+	{% for post in site.categories.flying-pests %}
+	<li>
+		<a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a>
+		<p>{{post.meta}}</p>
+	</li>
+	{% endfor %}
+</ul>
