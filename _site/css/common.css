@@ -9,6 +9,9 @@ body {
 	margin-left: -50px; /* this moves the main content of the unte under the hamburger */
 }
 
+header{
+  text-align: center;
+}
 
 
 /************ ALL BUTTON STYLES UNDER HERE ***************/
