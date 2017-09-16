@@ -2,11 +2,8 @@
 
 .content-wrapper{
 	background: #dddddd;
-	max-width: 400px
-}
-
-body {
-	margin-left: -50px; /* this moves the main content of the unte under the hamburger */
+	max-width: 400px;
+  padding: 10px;
 }
 
 header{
@@ -42,6 +39,12 @@ header{
 
 .button-red a{
 	background: #d12929;
+}
+
+.button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* all button hover styles under here */
