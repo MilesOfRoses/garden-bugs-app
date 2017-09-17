@@ -1,23 +1,22 @@
 /************ BASIC LAYOUT ***************/
 
 .content-wrapper{
-	background: #dddddd;
 	max-width: 400px;
   padding: 10px;
 }
 
 header{
   text-align: center;
-  background: #828282;
+  background: #0c80c9;
+  color: white;
   max-width: 400px;
-
+  padding-top: 10px;
 }
-
 
 /************ ALL BUTTON STYLES UNDER HERE ***************/
 .button {
   /* non-critical appearance styles */
-  width: 250px;
+  width: 90%;
   list-style: none
 }
 
