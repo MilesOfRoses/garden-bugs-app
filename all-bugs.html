@@ -1,0 +1,33 @@
+---
+layout: default
+---
+	<header>
+		<h1>All the Bugs</h1>
+		<h2>View all insects in this app at once</h2>
+	</header>
+
+<div class="content-wrapper">
+
+	<ol>
+		{% for post in site.data.bug-types %}
+			<li>
+				<a href="{{site.baseurl}}/posts/{{post.folder}}/">{{post.title}}</a>
+				{{post.content}}
+			</li>
+		{% endfor %}
+	</ol>
+
+
+	<b>Here is an unfiltered list of all the insects in this app</b>
+	
+	{% for post in site.posts %}
+	<ul>
+		<li>
+			<a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a> ({{post.category}})
+			<p>{{post.meta}}</p>
+		</li>
+	</ul>
+	{% endfor %}
+
+
+</div> <!--content-wrapper-->
