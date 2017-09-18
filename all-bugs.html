@@ -8,23 +8,14 @@ layout: default
 
 <div class="content-wrapper">
 
-	<ol>
-		{% for post in site.data.bug-types %}
-			<li>
-				<a href="{{site.baseurl}}/posts/{{post.folder}}/">{{post.title}}</a>
-				{{post.content}}
-			</li>
-		{% endfor %}
-	</ol>
-
-
-	<b>Here is an unfiltered list of all the insects in this app</b>
+	<b>An unfiltered list of all the insects on this app</b>
 	
 	{% for post in site.posts %}
 	<ul>
 		<li>
-			<a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a> ({{post.category}})
+			<b><a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></b> ({{post.category}})
 			<p>{{post.meta}}</p>
+			<img src="{{site.baseurl}}/img/{{post.image}}" alt="Photo of {{post.title}}">
 		</li>
 	</ul>
 	{% endfor %}

@@ -4,6 +4,7 @@ title: Parasitic Wasp
 meta: These tiny, non-stinging wasps are some of the most beneficial insects in the garden.
 source: https://cedarcirclefarm.org/tips/entry/beneficial-insect-parasitic-wasp
 category: predators
+image: parasitic-wasp-min.jpg
 ---
 <header>
 	<h1>Parasitic Wasp</h1>

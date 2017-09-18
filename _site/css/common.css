@@ -2,7 +2,6 @@
 
 .content-wrapper{
 	max-width: 400px;
-  padding: 10px;
 }
 
 header{
@@ -11,6 +10,26 @@ header{
   max-width: 400px;
   padding-top: 10px;
 }
+
+li p, li a{
+  padding: 10px;
+}
+
+/************ ALL STYLES FOR INSECT IMAGES/INFO ***************/
+li img {
+  width: 400px;
+  padding-left: 0;
+}
+
+li b {
+  font-size: 2em;
+}
+
+li {
+  text-align: center;
+}
+
+
 
 /************ ALL BUTTON STYLES UNDER HERE ***************/
 .button {

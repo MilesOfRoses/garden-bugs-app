@@ -10,8 +10,9 @@ layout: default
 	<ul>
 		{% for post in site.categories.flying-pests %}
 		<li>
-			<a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a>
+			<b><a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></b>
 			<p>{{post.meta}}</p>
+			<img src="{{site.baseurl}}/img/{{post.image}}" alt="Photo of {{post.title}}">
 		</li>
 		{% endfor %}
 	</ul>

@@ -4,6 +4,7 @@ title: Asparagus Beetle
 meta: The common asparagus beetle, are pests of asparagus. 
 source: https://www.extension.umn.edu/garden/insects/find/asparagus-beetles/
 category: flying-pests
+image: asparagus-beetle-min.jpg
 ---
 
 <header>

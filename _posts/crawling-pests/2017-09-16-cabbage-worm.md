@@ -4,6 +4,7 @@ title: Cabbage Worms
 meta: This is a common pest for cabbage, kale, cauliflower, broccoli, and other members of the cabbage vegetable family.
 source: https://www.almanac.com/pest/cabbage-worms
 category: crawling-pests
+image: cabbage-worms-min.jpg
 ---
 
 <header>

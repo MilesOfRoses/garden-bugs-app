@@ -4,6 +4,7 @@ title: Blister Beetle
 meta: Blister beetles are a common field and garden pest best known for the welt-raising secretion they release when injured or crushed.  
 source: https://www.planetnatural.com/pest-problem-solver/garden-pests/blister-beetle-control/
 category: flying-pests
+image: blister-beetle-min.jpg
 ---
 
 <header>

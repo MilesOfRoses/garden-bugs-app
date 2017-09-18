@@ -4,6 +4,7 @@ title: butterflies
 meta: Adult butterflies have large, often brightly coloured wings, and conspicuous, fluttering flight. 
 source: https://en.wikipedia.org/wiki/Butterfly
 category: pollinators
+image: butterfly-min.jpg
 ---
 
 <header>
