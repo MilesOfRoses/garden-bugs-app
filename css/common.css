@@ -11,15 +11,14 @@ header{
   padding-top: 10px;
 }
 
-li p, li a{
-  padding: 10px;
-}
+
 
 /************ ALL STYLES FOR INSECT IMAGES/INFO ***************/
-li img {
+li {
   width: 400px;
   padding-left: 0;
 }
+
 
 li b {
   font-size: 2em;
@@ -54,13 +53,17 @@ li {
 }
 
 .button-green a{
-	background: #2dad41;
+  background: #2dad41;
 }
 
 .button-red a{
-	background: #d12929;
+  background: #d12929;
 }
 
+.bug-pic{
+  width: 400px;
+  padding-left: 0;
+}
 .button {
   display: block;
   margin-left: auto;
