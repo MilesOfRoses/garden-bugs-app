@@ -2,9 +2,12 @@
 
 .content-wrapper, .site-wrap{
   max-width: 400px;
+  margin: 0 auto;
 }
 
-
+* {
+  list-style: none;
+}
 
 header{
   text-align: center;
@@ -47,6 +50,8 @@ li {
   max-width: 400px;
 }
 
+
+
 /************ ALL BUTTON STYLES UNDER HERE ***************/
 .button {
   /* non-critical appearance styles */
@@ -80,8 +85,7 @@ li {
 
 .button {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
 }
 
 /* all button hover styles under here */

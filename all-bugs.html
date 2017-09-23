@@ -12,7 +12,7 @@ layout: default
 	
 	{% for post in site.posts %}
 	<ul>
-		<li>
+		<li class="all-bugs-list">
 			<b><a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></b> ({{post.category}})
 			<p>{{post.meta}}</p>
 			<img class="bug-pic" src="{{site.baseurl}}/img/{{post.image}}" alt="Photo of {{post.title}}">
