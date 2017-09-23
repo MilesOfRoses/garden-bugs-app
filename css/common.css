@@ -5,6 +5,10 @@
   margin: 0 auto;
 }
 
+.content-wrapper{
+  padding: 15px;
+}
+
 * {
   list-style: none;
 }
@@ -27,14 +31,10 @@ li {
   padding-left: 0;
 }
 
-
 li b {
   font-size: 2em;
 }
 
-li {
-  text-align: center;
-}
 
 .bug-post-pic{
   float: left;
