@@ -1,5 +1,8 @@
 /************ BASIC LAYOUT ***************/
 
+header {
+position: fixed;
+}
 .content-wrapper, .site-wrap{
   max-width: 400px;
   margin: 0 auto;
