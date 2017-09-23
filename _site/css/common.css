@@ -1,8 +1,10 @@
 /************ BASIC LAYOUT ***************/
 
-.content-wrapper{
-	max-width: 400px;
+.content-wrapper, .site-wrap{
+  max-width: 400px;
 }
+
+
 
 header{
   text-align: center;
@@ -11,11 +13,14 @@ header{
   padding-top: 10px;
 }
 
-
+.mobile-content {
+  display: inline;
+  margin: 0 auto;
+}
 
 /************ ALL STYLES FOR INSECT IMAGES/INFO ***************/
 li {
-  width: 400px;
+  max-width: 400px;
   padding-left: 0;
 }
 
@@ -28,7 +33,19 @@ li {
   text-align: center;
 }
 
+.bug-post-pic{
+  float: left;
+  width: 50%;
+}
 
+.bug-pic{
+  width: 50%;
+  padding-left: 0;
+}
+
+.bug-description{
+  max-width: 400px;
+}
 
 /************ ALL BUTTON STYLES UNDER HERE ***************/
 .button {
@@ -60,10 +77,7 @@ li {
   background: #d12929;
 }
 
-.bug-pic{
-  width: 400px;
-  padding-left: 0;
-}
+
 .button {
   display: block;
   margin-left: auto;

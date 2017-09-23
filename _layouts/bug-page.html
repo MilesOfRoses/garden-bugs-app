@@ -2,7 +2,8 @@
 layout: default
 ---
 
-
-{{content}}
-<img src="{{site.baseurl}}/img/{{page.image}}" alt="Photo of {{page.title}}">
-<p>{{page.description}}</p>
+<div id="content-wrapper">
+	{{content}}
+	<img class="bug-post-pic" src="{{site.baseurl}}/img/{{page.image}}" alt="Photo of {{page.title}}">
+	<p class="bug-description">{{page.description}}</p>
+</div>
